@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Byte-compiled / optimized
+*.egg-info/
+build/
+dist/
+
+# Docker
+*.pid
+*.log
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
